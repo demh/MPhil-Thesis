@@ -4,7 +4,8 @@ Description of the files.
 
 --> running_caveman.
 
-caveman_wrapper_final_MT_script.sh: main script used to call SNVs in the mitochondrial genome for the subset of 40 samples.
+caveman_wrapper_final_MT_script.sh: main script used to call SNVs in the mitochondrial genome using CaVEMan.
+                                    This script was run for each one of the 40 samples, generating 40 VCF output files.
 
 flag.to.vcf.convert.ini: file which contains the description for the different filters implemented in CaVEMan.
 
