@@ -10,3 +10,12 @@ flag.to.vcf.convert.ini: file which contains the description for the different f
 
 flag.vcf.config.ini: file which contains the whole list of parameters used when running CaVEMan.
 
+--------------------------------------------
+
+--> filtering_pipeline.
+
+final_MT_pipeline_commands.R: script which contains the commands for the processing and filtering of the SNVs
+                              in the mitochondrial genome, taking as input the VCF files from CaVEMan. 
+
+final_MT_pipeline_functions.R: script which contains the functions used by final_MT_pipeline_commands.R.
+
