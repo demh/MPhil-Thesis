@@ -1,3 +1,12 @@
+##################################################################################################
+##                                  Daniel Elias Martin Herranz                                 ##
+##                                 MPhil in Computational Biology                               ##
+##                                    University of Cambridge                                   ##
+##                                          August 2015                                         ##
+##################################################################################################
+
+##### Bash script to run the different steps involved in CaVEMan #####
+
 #!/bin/bash
 
 FILE=$1
