@@ -1,1 +1,6 @@
-Explanation of the code
+Description of the scripts
+
+--> running_caveman.
+
+caveman_wrapper_final_MT_script.sh: main script used to call SNVs in the mitochondrial genome for the subset of 40 low-coverage samples.
+
