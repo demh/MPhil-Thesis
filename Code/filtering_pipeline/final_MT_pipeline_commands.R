@@ -102,7 +102,7 @@ final.MT.only.PASS.MQ.HET.binary <- remove.variants.with.flag(final.MT.flagged.D
 
 variants.clustering(final.MT.only.PASS.MQ.HET.binary, 'changes_clustering.pdf');
 
-# Create two matrices (include and exclude) which contains changes realted with the manual curation of the variants.
+# Create two matrices (include and exclude) which contains changes related with the manual curation of the variants.
 
 include.variants <- cbind(c('12864', '23'),
                           c('11788', '9'),
