@@ -66,7 +66,7 @@ load("genome_pos.RData");
 data$genome.pos <- genome.pos; # After loading genome_pos, don't redo the loop.
 
 
-## Create a function to plot the results of the CN analysis.
+## Create a function to make the DOC plot.
 
 # plot.name: name of the plot (end in .png)
 # output.path: path to output the plot.
