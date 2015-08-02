@@ -21,7 +21,7 @@ variant.name.and.class[,1] <- substr(as.character(class.variants[,1]),
                                      3, nchar(as.character(class.variants[,1])));
 variant.name.and.class[,2] <- as.character(class.variants[,3]);
 
-## Format the information. Create a list of matrices, one matrix per sample.
+## Format the information. Create a list of matrices, one matrix per sample,
 #  each matrix containing the following columns: variant position, classification
 #  of the variant (G, G/RE, S, HET), BAF.
 
