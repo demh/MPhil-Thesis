@@ -1,6 +1,6 @@
-Description of the files.
+# Description of the files.
 
---------------------------------------------
+===============================
 
 --> running_caveman.
 
@@ -10,7 +10,7 @@ flag.to.vcf.convert.ini: file which contains the description for the different f
 
 flag.vcf.config.ini: file which contains the whole list of parameters used when running CaVEMan.
 
---------------------------------------------
+===============================
 
 --> filtering_pipeline.
 
