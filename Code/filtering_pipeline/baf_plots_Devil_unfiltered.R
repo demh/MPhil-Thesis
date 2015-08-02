@@ -38,12 +38,12 @@ info.variants[,3] <- info.baf.all[seq(from=10, to=length(info.baf.all), by=10)];
 
 # Those variants flagged as 'PASS' are depicted in blue. The rest of the variants are depicted in 'RED'.
 
-pdf(paste0('results/', sample.number, '_BAF_plot.pdf'), height=6, width=12);
+pdf(paste0('results/', sample.number, '_BAF_plot_unfiltered.pdf'), height=6, width=12);
 
 colour.variants <- ifelse(info.variants[,2] == 'PASS', 'blue', 'red');
 
 plot(info.variants[,1], info.variants[,3], col='white', pch='.', xlim=c(1, 16627), ylim=c(0,1), 
-     main=paste0('Sample ', sample.number), xlab='Position in mitochondrial genome', ylab='BAF', cex.axis=0.8);
+     main=paste0('Sample ', sample.number, ': unfiltered'), xlab='Position in mitochondrial genome', ylab='BAF', cex.axis=0.8);
 
 text(as.numeric(info.variants[,1]), as.numeric(info.variants[,3]), labels=as.character(info.variants[,1]), col=colour.variants, cex=0.7);
 
