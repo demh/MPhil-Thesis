@@ -20,6 +20,8 @@ final_MT_pipeline_functions.R: script which contains the functions used by final
 
 baf_plots_Devil_unfiltered.R: script which creates BAF plots for the unfiltered SNVs found by CaVEMan in the mitochondrial genome.
 
+baf_plots_Devil_filtered.R: script which creates BAF plots for the filtered SNVs after running final_MT_pipeline_commands.
+
 
 ===============================
 
