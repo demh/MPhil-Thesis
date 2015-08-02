@@ -5,6 +5,9 @@
 ##                                          August 2015                                         ##
 ##################################################################################################
 
+# We are thankful to David C. Wedge, from the  Wellcome Trust Sanger Institute, who provided the 
+# original code and pipeline outline, which we adapted for our own purposes.
+
 ##### Create the DOC (depth of coverage) plots for the Tasmanian devil samples #####
 
 ## We use as input the results from the search of coverageBed.
