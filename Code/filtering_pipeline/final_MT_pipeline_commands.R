@@ -152,5 +152,8 @@ variants.clustering(final.after.curation.bin , 'after_curation_clustering.pdf');
 
 create.file.VEP(final.after.curation.not.bin, file.path='/Users/dmh/Desktop/trial_caveman/mit_processing/extra_stuff/mutational_signature/selected_variants.txt', chr='MT');
 
+# Export final.after.curation.not.bin for its use in the construction of the filtered BAF plots.
+
+# write.csv(final.after.curation.not.bin, file='/Users/dmh/Desktop/trial_caveman/mit_processing/baf_plots_filtered/filtered_variants.csv');
 
 ##### End of the script #####
