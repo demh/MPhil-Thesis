@@ -22,5 +22,7 @@ final_MT_pipeline_functions.R: script which contains the functions used by final
 
 --> doc_plots.
 
+GenerateBedFile_Devil.R: script to generate the BED file which specifies the genomic windows for PlotCoverage_Devil_final.R.
+
 PlotCoverage_Devil_final.R: script for creating the DOC (depth of coverage) plots for the Tasmanian devil samples.
 
