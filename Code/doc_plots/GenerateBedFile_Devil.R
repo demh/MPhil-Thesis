@@ -5,7 +5,7 @@
 ##                                          August 2015                                         ##
 ##################################################################################################
 
-# We are thankful to David C. Wedge, from the  Wellcome Trust Sanger Institute, who provided the 
+# We are thankful to David C. Wedge, from the  Wellcome Trust Sanger Institute, who kindly provided the 
 # original code and pipeline outline, which we adapted for our own purposes.
 
 ##### Generate Bed file with genomic windows of a certain size for the Tasmanian devil samples #####
