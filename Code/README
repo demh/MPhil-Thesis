@@ -22,6 +22,8 @@ baf_plots_Devil_unfiltered.R: script which creates BAF plots for the unfiltered 
 
 baf_plots_Devil_filtered.R: script which creates BAF plots for the filtered SNVs after running final_MT_pipeline_commands.
 
+additional_plots_final_SNVs.R: script to create several plots (mutational signature, VEP plot, rainfall plot) for the analysis of the final filtered mitochondrial SNVs.
+
 
 ===============================
 
