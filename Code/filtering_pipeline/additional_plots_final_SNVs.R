@@ -132,9 +132,9 @@ setwd('/Users/dmh/Desktop/trial_caveman/mit_processing/extra_stuff/VEP_plot/')
 
 pdf('VEP_plot_final.pdf', height=6, width=6);
 
-ggplot(data.effect, aes(x=sample, y=value, fill = consequence)) + geom_bar(stat ="identity") +
+print(ggplot(data.effect, aes(x=sample, y=value, fill = consequence)) + geom_bar(stat ="identity") +
   xlab('Sample type') + ylab('% SNVs') +labs(fill='SNV consequence') +
-  theme_bw();
+  theme_bw());
 
 dev.off();
 
