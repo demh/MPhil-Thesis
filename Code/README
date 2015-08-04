@@ -24,6 +24,7 @@ baf_plots_Devil_filtered.R: script which creates BAF plots for the filtered SNVs
 
 additional_plots_final_SNVs.R: script to create several plots (mutational signature, VEP plot, rainfall plot) for the analysis of the final filtered mitochondrial SNVs.
 
+generate_MSA_sequences.R: script to create a FASTA file which contains the mitochondrial sequences with the filtered SNVs for each one of the samples. This FASTA file will be used afterwards to perform multiple sequence alignment using Clustal Omega.
 
 ===============================
 
