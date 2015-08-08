@@ -34,3 +34,6 @@ GenerateBedFile_Devil.R: script to generate the BED file which specifies the gen
 
 PlotCoverage_Devil_final.R: script for creating the DOC (depth of coverage) plots for the Tasmanian devil samples.
 
+find_genes_in_dm_88T_final.R: script which extracts the candidate driver genes found in the amplified regions from chromosome 1 in sample 88T.
+
+
